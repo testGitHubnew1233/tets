@@ -14,6 +14,7 @@ public class JavaClassA {
             ScriptEngine engine = manager.getEngineByName("JavaScript");
             System.out.println(args[0]);
             engine.eval("print('"+ args[0] + "')");
+            /**add new row*/
         } catch(Exception e) {
             e.printStackTrace();
         }
