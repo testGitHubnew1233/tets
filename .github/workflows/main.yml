@@ -14,3 +14,4 @@ jobs:
           cx_client_id: ${{ secrets.CLIENT_ID }}
           cx_client_secret: ${{ secrets.SECRET }}
           additional_params: --scan-types "SAST"
+          token: ${{ secrets.GITHUB_TOKEN }}
