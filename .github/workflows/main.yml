@@ -1,7 +1,10 @@
 name: Checkmarx Scan
 
-on: [push,pull_request,workflow_dispatch]
-
+on:
+  push:
+    branches:
+      - main
+      - master
 jobs:
   build:
     runs-on: ubuntu-latest
