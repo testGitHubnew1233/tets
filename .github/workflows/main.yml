@@ -14,5 +14,4 @@ jobs:
           cx_client_id: ${{ secrets.CLIENT_ID }}
           cx_client_secret: ${{ secrets.SECRET }}
           project_name: Margarita_Local_Source
-          threshold: sast-high=1
-          additional_params: --scan-types "SAST"
+          additional_params: --scan-types "SAST" --threshold sast-high=1
