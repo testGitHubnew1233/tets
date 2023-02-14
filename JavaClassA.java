@@ -19,3 +19,7 @@ public class JavaClassA {
         }
     }
 }
+
+/**
+* Add new note to the code
+*/
