@@ -11,9 +11,9 @@ public class JavaClassA {
     public static void main(String[] args) {
         try {
             ScriptEngineManager manager = new ScriptEngineManager();
-          //  ScriptEngine engine = manager.getEngineByName("JavaScript");
+            ScriptEngine engine = manager.getEngineByName("JavaScript");
             System.out.println(args[0]);
-          //  engine.eval("print('"+ args[0] + "')");
+            engine.eval("print('"+ args[0] + "')");
         } catch(Exception e) {
             e.printStackTrace();
         }
