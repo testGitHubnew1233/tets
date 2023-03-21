@@ -22,7 +22,7 @@ jobs:
           project_name: test_GitHuybAction_SSH
           cx_tenant: Cx_Seg
           base_uri: https://eu.ast.checkmarx.net
-          cx_client_id: ${{ secrets.CLIENT_ID }}
-          cx_client_secret: ${{ secrets.SECRET }}
+          cx_client_id: ${{ secrets.CX_CLIENT_ID }}
+          cx_client_secret: ${{ secrets.CX_CLIENT_SECRETT }}
           additional_params: --iac-security-platforms ${{ env.platform }} --debug --scan-types ${{ env.scanTypes }} --threshold ${{ env.threshold }}
 
