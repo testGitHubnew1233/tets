@@ -15,5 +15,5 @@ jobs:
           cx_tenant: Cx_Seg
           cx_client_id: ${{ secrets.CLIENT_ID }}
           cx_client_secret: ${{ secrets.SECRET }}
-          project_name: Margarita_Local_Source
+          project_name: test_GitHuybAction_SSH
           additional_params: --scan-types "SAST"
